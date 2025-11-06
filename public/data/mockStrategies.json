@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "name": "Momentum Breakout Strategy",
+    "category": "Day Trading",
+    "description": "Identify stocks breaking above resistance with strong volume. Enter on pullback with tight stops."
+  },
+  {
+    "id": "2",
+    "name": "Swing Trading Setup",
+    "category": "Swing Trading",
+    "description": "Trade multi-day moves using daily charts. Look for trend continuation patterns with good risk/reward."
+  },
+  {
+    "id": "3",
+    "name": "Scalping M5 Setup",
+    "category": "Scalping",
+    "description": "Quick trades on 5-minute timeframe. Focus on high liquidity pairs with tight spreads."
+  },
+  {
+    "id": "4",
+    "name": "Reversal Pattern Trading",
+    "category": "Day Trading",
+    "description": "Trade reversals at key support/resistance levels using candlestick patterns for confirmation."
+  }
+]

@@ -1,0 +1,342 @@
+[
+  {
+    "id": "1",
+    "title": "Momentum Breakout Strategy",
+    "text": "Key points for momentum breakout:\n- Volume must be 2x average\n- Wait for pullback to 20 EMA\n- Stop loss below breakout candle low\n- Target 2:1 risk/reward minimum\n\nThis strategy works best during high volatility periods.",
+    "category": "Framework",
+    "tab": "strategy",
+    "content_type": "rich-text",
+    "created_at": "2025-10-15T10:00:00Z",
+    "updated_at": "2025-10-15T10:00:00Z",
+    "metadata": {
+      "word_count": 35,
+      "char_count": 185,
+      "tags": ["momentum", "breakout", "volume", "ema", "risk-management"],
+      "favorite": true,
+      "pinned": true
+    }
+  },
+  {
+    "id": "2",
+    "title": "Swing Trading Checklist",
+    "text": "Swing trading checklist:\n- Identify overall trend on weekly chart\n- Enter on daily chart pullback to key moving average\n- Use weekly support/resistance for targets\n- Hold through minor fluctuations\n\nTime horizon: 3-7 days typically.",
+    "category": "Framework",
+    "tab": "strategy",
+    "content_type": "rich-text",
+    "created_at": "2025-10-10T14:30:00Z",
+    "updated_at": "2025-10-12T09:15:00Z",
+    "metadata": {
+      "word_count": 32,
+      "char_count": 168,
+      "tags": ["swing-trading", "trend", "moving-average", "support-resistance"],
+      "favorite": false,
+      "pinned": false
+    }
+  },
+  {
+    "id": "3",
+    "title": "Scalping Rules",
+    "text": "Scalping rules:\n- Only trade during high volume hours (9:30-11:30 AM, 2-4 PM EST)\n- Maximum 5 trades per day\n- Cut losses quickly - no exceptions\n- Take profits at predetermined targets\n\nRequires quick decision making and strict discipline.",
+    "category": "Risk Management",
+    "tab": "strategy",
+    "content_type": "rich-text",
+    "created_at": "2025-10-05T09:15:00Z",
+    "updated_at": "2025-10-08T16:45:00Z",
+    "metadata": {
+      "word_count": 33,
+      "char_count": 182,
+      "tags": ["scalping", "volume", "discipline", "risk-management", "targets"],
+      "favorite": true,
+      "pinned": false
+    }
+  },
+  {
+    "id": "4",
+    "title": "GBP/USD Trade Journal",
+    "text": "Another successful GBP/USD momentum play. Entry at 1.2850 on volume spike above 20 EMA pullback. Target hit perfectly at 1.2900 (+50 pips). Risk was well defined below the breakout candle at 1.2835.",
+    "category": "Trades",
+    "tab": "notes",
+    "content_type": "plain-text",
+    "created_at": "2025-10-14T11:20:00Z",
+    "updated_at": "2025-10-14T11:20:00Z",
+    "metadata": {
+      "word_count": 32,
+      "char_count": 196,
+      "tags": ["gbp-usd", "momentum", "volume", "ema", "success"],
+      "favorite": false,
+      "pinned": false
+    }
+  },
+  {
+    "id": "5",
+    "title": "Risk Management Principles",
+    "text": "Core risk management principles:\n1. Never risk more than 1% per trade\n2. Use stop losses on every trade\n3. Maintain 2:1 minimum risk/reward\n4. Keep detailed trade journal\n\nThese rules have been tested over years of trading.",
+    "category": "Risk Management",
+    "tab": "strategy",
+    "content_type": "rich-text",
+    "created_at": "2025-10-01T08:00:00Z",
+    "updated_at": "2025-10-11T14:30:00Z",
+    "metadata": {
+      "word_count": 38,
+      "char_count": 196,
+      "tags": ["risk-management", "stop-loss", "risk-reward", "journal", "principles"],
+      "favorite": true,
+      "pinned": true
+    }
+  },
+  {
+    "id": "6",
+    "title": "Market Psychology Notes",
+    "text": "Understanding market psychology:\n- Fear and greed drive most market movements\n- Overconfidence leads to bigger losses\n- FOMO (Fear of Missing Out) causes poor entries\n- Patience is key to successful trading\n\nEmotional control is as important as technical analysis.",
+    "category": "Psychology",
+    "tab": "strategy",
+    "content_type": "rich-text",
+    "created_at": "2025-09-28T15:45:00Z",
+    "updated_at": "2025-10-09T12:00:00Z",
+    "metadata": {
+      "word_count": 38,
+      "char_count": 215,
+      "tags": ["psychology", "emotions", "fomo", "patience", "overconfidence"],
+      "favorite": false,
+      "pinned": false
+    }
+  },
+  {
+    "id": "7",
+    "title": "EUR/JPY Analysis",
+    "text": "EUR/JPY forming ascending triangle on 4H chart. Key resistance at 150.80. Watching for breakout above this level with volume confirmation. Stop would be below triangle base at 149.50.",
+    "category": "Trades",
+    "tab": "notes",
+    "content_type": "plain-text",
+    "created_at": "2025-10-13T16:30:00Z",
+    "updated_at": "2025-10-13T16:30:00Z",
+    "metadata": {
+      "word_count": 31,
+      "char_count": 180,
+      "tags": ["eur-jpy", "triangle", "resistance", "volume", "breakout"],
+      "favorite": false,
+      "pinned": false
+    }
+  },
+  {
+    "id": "8",
+    "title": "Prop Firm Rules",
+    "text": "Important prop firm rules:\n- Daily loss limit: 5%\n- Maximum drawdown: 10%\n- No trading during news events\n- Must follow 1% risk rule strictly\n\nViolating these can lead to account closure.",
+    "category": "Prop Firms",
+    "tab": "rules",
+    "content_type": "rich-text",
+    "created_at": "2025-09-25T10:00:00Z",
+    "updated_at": "2025-10-07T11:45:00Z",
+    "metadata": {
+      "word_count": 35,
+      "char_count": 192,
+      "tags": ["prop-firms", "risk-rules", "daily-limit", "drawdown", "news"],
+      "favorite": true,
+      "pinned": false
+    }
+  },
+  {
+    "id": "9",
+    "title": "Technical Analysis Fundamentals",
+    "text": "Technical analysis is based on three key assumptions:\n1. Price discounts everything\n2. Prices move in trends\n3. History tends to repeat itself\n\nSupport and resistance levels are crucial for entry and exit timing.",
+    "category": "Framework",
+    "tab": "strategy",
+    "content_type": "rich-text",
+    "created_at": "2025-09-20T12:00:00Z",
+    "updated_at": "2025-10-06T09:30:00Z",
+    "metadata": {
+      "word_count": 36,
+      "char_count": 205,
+      "tags": ["technical-analysis", "trends", "support-resistance", "fundamentals", "price-action"],
+      "favorite": false,
+      "pinned": false
+    }
+  },
+  {
+    "id": "10",
+    "title": "US30 Trade Setup",
+    "text": "US30 showing strong bullish momentum above key moving averages. RSI oversold bounce triggered buying interest. Looking for continuation higher with volume confirmation. Stop below recent swing low.",
+    "category": "Trades",
+    "tab": "notes",
+    "content_type": "plain-text",
+    "created_at": "2025-10-16T09:45:00Z",
+    "updated_at": "2025-10-16T09:45:00Z",
+    "metadata": {
+      "word_count": 30,
+      "char_count": 184,
+      "tags": ["us30", "bullish", "momentum", "rsi", "volume"],
+      "favorite": false,
+      "pinned": false
+    }
+  },
+  {
+    "id": "11",
+    "title": "Stop Loss Strategies",
+    "text": "Different stop loss strategies:\n- Fixed pip stop (e.g., 20 pips)\n- ATR-based stop (2x ATR)\n- Support/resistance stop\n- Volatility stop\n\nChoose based on the trading strategy and market conditions.",
+    "category": "Risk Management",
+    "tab": "rules",
+    "content_type": "rich-text",
+    "created_at": "2025-09-30T14:20:00Z",
+    "updated_at": "2025-10-10T08:15:00Z",
+    "metadata": {
+      "word_count": 34,
+      "char_count": 180,
+      "tags": ["stop-loss", "atr", "support-resistance", "volatility", "strategies"],
+      "favorite": true,
+      "pinned": false
+    }
+  },
+  {
+    "id": "12",
+    "title": "Trading Session Analysis",
+    "text": "Best trading sessions:\n- London: 08:00-12:00 GMT\n- New York: 13:00-17:00 GMT\n- Asian: 00:00-04:00 GMT\n\nOverlap periods offer highest volatility and best opportunities.",
+    "category": "Trade Ops",
+    "tab": "rules",
+    "content_type": "rich-text",
+    "created_at": "2025-09-26T11:00:00Z",
+    "updated_at": "2025-10-05T13:30:00Z",
+    "metadata": {
+      "word_count": 29,
+      "char_count": 160,
+      "tags": ["trading-sessions", "london", "new-york", "asian", "volatility"],
+      "favorite": false,
+      "pinned": false
+    }
+  },
+  {
+    "id": "13",
+    "title": "Gold Trading Notes",
+    "text": "Gold (XAU/USD) responding well to momentum strategy. Current pullback to 20 EMA offers good entry opportunity. Stop below key support level. Risk/reward ratio is favorable at current levels.",
+    "category": "Trades",
+    "tab": "notes",
+    "content_type": "plain-text",
+    "created_at": "2025-10-17T14:15:00Z",
+    "updated_at": "2025-10-17T14:15:00Z",
+    "metadata": {
+      "word_count": 30,
+      "char_count": 178,
+      "tags": ["gold", "xau-usd", "momentum", "ema", "support"],
+      "favorite": true,
+      "pinned": false
+    }
+  },
+  {
+    "id": "14",
+    "title": "Market Correlation Study",
+    "text": "Correlations to watch:\n- EUR/USD vs GBP/USD (positive)\n- Gold vs USD Index (negative)\n- Oil vs CAD (positive)\n- S&P 500 vs VIX (negative)\n\nUnderstanding these helps predict market movements.",
+    "category": "Reflections",
+    "tab": "notes",
+    "content_type": "rich-text",
+    "created_at": "2025-10-08T16:00:00Z",
+    "updated_at": "2025-10-14T10:30:00Z",
+    "metadata": {
+      "word_count": 34,
+      "char_count": 180,
+      "tags": ["correlation", "eur-usd", "gbp-usd", "gold", "sp500", "vix"],
+      "favorite": false,
+      "pinned": false
+    }
+  },
+  {
+    "id": "15",
+    "title": "Position Sizing Calculator",
+    "text": "Position sizing formula:\nAccount Size × Risk % ÷ Stop Loss Distance = Position Size\n\nExample: $10,000 × 2% ÷ 50 pips = 4 mini lots\n\nAlways calculate position size before entering any trade.",
+    "category": "Risk Management",
+    "tab": "rules",
+    "content_type": "rich-text",
+    "created_at": "2025-09-22T13:30:00Z",
+    "updated_at": "2025-10-03T11:45:00Z",
+    "metadata": {
+      "word_count": 34,
+      "char_count": 195,
+      "tags": ["position-sizing", "calculator", "risk-percentage", "formulas", "money-management"],
+      "favorite": true,
+      "pinned": true
+    }
+  },
+  {
+    "id": "16",
+    "title": "Volatility Trading Approach",
+    "text": "Trading high volatility periods:\n- Wait for clear breakouts\n- Use wider stops\n- Take partial profits\n- Monitor risk/reward constantly\n\nVolatility creates both opportunity and risk.",
+    "category": "Framework",
+    "tab": "strategy",
+    "content_type": "rich-text",
+    "created_at": "2025-09-18T15:45:00Z",
+    "updated_at": "2025-10-01T09:20:00Z",
+    "metadata": {
+      "word_count": 30,
+      "char_count": 170,
+      "tags": ["volatility", "breakouts", "risk-reward", "partial-profits"],
+      "favorite": false,
+      "pinned": false
+    }
+  },
+  {
+    "id": "17",
+    "title": "News Trading Rules",
+    "text": "News trading guidelines:\n- Avoid trading 30 min before/after major news\n- Use wider stops during news volatility\n- Wait for initial spike to settle\n- Consider using pending orders\n\nNews can create unexpected market movements.",
+    "category": "Trade Ops",
+    "tab": "rules",
+    "content_type": "rich-text",
+    "created_at": "2025-09-15T12:30:00Z",
+    "updated_at": "2025-09-28T14:15:00Z",
+    "metadata": {
+      "word_count": 31,
+      "char_count": 175,
+      "tags": ["news-trading", "volatility", "stops", "pending-orders", "guidelines"],
+      "favorite": false,
+      "pinned": false
+    }
+  },
+  {
+    "id": "18",
+    "title": "Monthly Performance Review",
+    "text": "October 2025 Review:\n- Total trades: 47\n- Win rate: 68%\n- Average risk/reward: 1:2.3\n- Largest winning trade: +85 pips\n- Largest losing trade: -35 pips\n\nStrong month with consistent discipline.",
+    "category": "Reflections",
+    "tab": "notes",
+    "content_type": "rich-text",
+    "created_at": "2025-10-31T18:00:00Z",
+    "updated_at": "2025-10-31T18:00:00Z",
+    "metadata": {
+      "word_count": 28,
+      "char_count": 168,
+      "tags": ["monthly-review", "performance", "win-rate", "discipline", "october-2025"],
+      "favorite": true,
+      "pinned": false
+    }
+  },
+  {
+    "id": "19",
+    "title": "Stress Management in Trading",
+    "text": "Managing trading stress:\n- Take regular breaks every 2 hours\n- Practice deep breathing exercises\n- Don't chase losses\n- Keep a trading journal\n- Remember: it's just business\n\nMental health is crucial for long-term success.",
+    "category": "Psychology",
+    "tab": "strategy",
+    "content_type": "rich-text",
+    "created_at": "2025-09-10T16:45:00Z",
+    "updated_at": "2025-09-25T10:30:00Z",
+    "metadata": {
+      "word_count": 30,
+      "char_count": 172,
+      "tags": ["stress-management", "mental-health", "breathing", "journal", "breaks"],
+      "favorite": false,
+      "pinned": false
+    }
+  },
+  {
+    "id": "20",
+    "title": "EURAUD Trade Analysis",
+    "text": "EURAUD showing classic head and shoulders pattern on daily timeframe. Neckline broken with strong volume. Target projects to 1.6450 area. Stop above recent high at 1.6850. Risk/reward favorable.",
+    "category": "Trades",
+    "tab": "notes",
+    "content_type": "plain-text",
+    "created_at": "2025-10-19T13:20:00Z",
+    "updated_at": "2025-10-19T13:20:00Z",
+    "metadata": {
+      "word_count": 30,
+      "char_count": 185,
+      "tags": ["euraud", "head-shoulders", "pattern", "volume", "target"],
+      "favorite": false,
+      "pinned": false
+    }
+  }
+]
