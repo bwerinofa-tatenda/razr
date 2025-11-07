@@ -10,9 +10,7 @@ import Header from './components/common/Header';
 import Dashboard from './pages/Dashboard';
 import Trades from './pages/Trades';
 import TradeForm from './pages/TradeForm';
-import Library from './pages/Library';
-import LibraryAdvanced from './pages/LibraryAdvanced';
-import Chat from './pages/Chat';
+
 import ImportsConnections from './pages/ImportsConnections';
 import Settings from './pages/Settings';
 
@@ -64,11 +62,7 @@ function AppContent() {
               <Route path="/trades" element={<Trades />} />
               <Route path="/trades/new" element={<TradeForm />} />
               <Route path="/trades/:id" element={<TradeForm />} />
-              <Route path="/strategies" element={<Library />} />
-              <Route path="/library" element={<Library />} />
-              <Route path="/library-advanced" element={<LibraryAdvanced />} />
-              <Route path="/notes" element={<Library />} />
-              <Route path="/chat" element={<Chat />} />
+
               <Route path="/imports-connections" element={<ImportsConnections />} />
               <Route path="/settings" element={<Settings />} />
             </Routes>

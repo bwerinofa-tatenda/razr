@@ -1,70 +1,28 @@
 import React, { useEffect, useState, useMemo } from 'react';
 import { useAuth } from '../contexts/AuthContext';
-import { getTrades, deleteTrade, updateTrade } from '../utils/api';
-import { formatCurrency, formatDate, calculateSystemQualityNumber } from '../utils/calculations';
-import { Link, useSearchParams } from 'react-router-dom';
-import { Plus, Edit, Trash2, ChevronDown, ChevronUp, Filter, X, HelpCircle, BarChart3 } from 'lucide-react';
+import { getTrades, deleteTrade } from '../utils/api';
+import { formatCurrency, calculateSystemQualityNumber } from '../utils/calculations';
+import { Link } from 'react-router-dom';
+import { Plus, Edit, Trash2, BarChart3 } from 'lucide-react';
 import AccountSelector from '../components/common/AccountSelector';
-import {
-  useReactTable,
-  getCoreRowModel,
-  getSortedRowModel,
-  getFilteredRowModel,
-  getPaginationRowModel,
-  flexRender,
-  createColumnHelper,
-  ColumnFiltersState,
-  SortingState,
-} from '@tanstack/react-table';
-// Removed MUI dependencies - using native date input instead
-import { 
-  format, 
-  startOfToday, 
-  endOfToday, 
-  startOfWeek, 
-  endOfWeek, 
-  startOfMonth, 
-  endOfMonth, 
-  subMonths 
-} from 'date-fns';
-import * as Popover from '@radix-ui/react-popover';
 
-// Types - Separated form input from calculated fields
-// Form input fields only - these are the fields users can edit in the form
-interface TradeFormData {
+// Types
+interface Trade {
   id: string;
   asset: string;
-  asset_type: 'FX' | 'Futures' | 'Metals' | 'Commodities';
+  asset_type: string;
   trade_type: string;
   size: number;
-  session: 'Asia' | 'London 1' | 'London 2' | 'London 3' | 'New York 1' | 'New York 2' | 'New York 3';
+  session: string;
   duration: string;
-  outcome: 'win' | 'loss' | 'break_even';
+  outcome: string;
   entry_tag: string;
   emotion: string;
-  what_liked: string;
-  what_didnt_like: string;
-  comment: string;
   pnl: number;
   time: string;
-  account_number?: string; // Optional field for account filtering
-}
-
-// Calculated/display-only fields - these are computed automatically and not editable by users
-interface TradeCalculatedData {
-  // Auto-calculated display-only field - DO NOT include in form submissions
+  account_number?: string;
   system_quality_number: number;
-  // Quality assessment fields
-  analysis: number;
-  execution: number;
-  trade_management: number;
-  risk_management: number;
-  mindset: number;
 }
-
-type Trade = TradeFormData & TradeCalculatedData;
-
-const columnHelper = createColumnHelper<Trade>();
 
 // Reports Section Component
 function ReportsSection({ 

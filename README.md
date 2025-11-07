@@ -1,6 +1,6 @@
 # TradeJournal AI 🚀
 
-A comprehensive, production-ready trade journaling web application with AI-powered insights, built with React, TypeScript, and Supabase.
+A comprehensive, production-ready trade journaling web application built with React, TypeScript, and Vite. A standalone frontend application with mock data support for demonstration and testing.
 
 [![Production Ready](https://img.shields.io/badge/Status-Production%20Ready-green.svg)](https://github.com/your-repo/tradejournal-ai)
 [![Version](https://img.shields.io/badge/Version-2.0.0-blue.svg)](https://github.com/your-repo/tradejournal-ai)
@@ -16,17 +16,16 @@ A comprehensive, production-ready trade journaling web application with AI-power
 ### Core Functionality
 - **📊 Dashboard**: Real-time trading metrics with interactive charts and performance analytics
 - **📝 Trade Management**: Full CRUD operations with emotions tracking, entry tags, and detailed notes
-- **📚 Strategy Library**: Organize trading strategies with rich documentation and categorization
-- **🤖 AI Chat Assistant**: Get personalized trading insights powered by Grok AI
+- **� MT5 Integration**: Import trades from MT5 accounts with CSV/Excel support
 - **🌓 Theme Support**: Dark/Light mode with persistent user preferences
 - **📱 Mobile Responsive**: Optimized for all device sizes
 
 ### Technical Features
-- **🔒 Row Level Security**: Secure multi-user architecture with Supabase RLS
-- **⚡ Real-time Updates**: Live data synchronization across sessions
 - **🎯 TypeScript**: 100% type-safe codebase with comprehensive error handling
 - **♿ Accessibility**: WCAG compliant components with keyboard navigation
 - **🔍 Search & Filter**: Advanced filtering and sorting for trades and strategies
+- **💾 Local Storage**: Client-side data persistence
+- **� Mock Data**: Comprehensive sample datasets for testing
 
 ## 🛠 Tech Stack
 
@@ -39,13 +38,10 @@ A comprehensive, production-ready trade journaling web application with AI-power
 - **Recharts** - Responsive chart library
 - **React Hook Form** - Performant forms with validation
 
-### Backend & Infrastructure
-- **Supabase** - Backend-as-a-Service platform
-  - PostgreSQL database with RLS
-  - Authentication & Authorization
-  - Real-time subscriptions
-  - Edge Functions for AI processing
-- **xAI Grok API** - AI-powered trading insights
+### Data Management
+- **Mock Data System** - Comprehensive sample data for demonstration
+- **Local Storage** - Client-side data persistence
+- **CSV/Excel Import** - File-based data import functionality
 
 ### Development Tools
 - **ESLint** - Code linting and formatting
@@ -73,8 +69,6 @@ src/
 
 ### Prerequisites
 - **Node.js 18+** and **pnpm** package manager
-- **Supabase account** (for backend functionality)
-- **xAI API key** (for AI chat features)
 
 ### Installation
 
@@ -139,21 +133,7 @@ pnpm preview:prod      # Preview production build
 - Error monitoring
 - Analytics enabled
 
-## 📊 Database Schema
 
-The application uses a normalized PostgreSQL schema with comprehensive Row Level Security:
-
-### Tables
-- **`user_profiles`**: User preferences and theme settings
-- **`trades`**: Trading records with emotions, tags, and P&L tracking
-- **`strategies`**: Trading strategies with categorization
-- **`notes`**: Rich notes associated with strategies
-- **`chat_messages`**: AI conversation history with metadata
-
-### Security
-- **Row Level Security (RLS)**: Users can only access their own data
-- **Authenticated access**: All database operations require authentication
-- **API key protection**: Backend edge functions securely handle API keys
 
 ## 🔧 Development
 
@@ -198,17 +178,11 @@ pnpm preview:prod
 - **Bulk Operations**: Import/export CSV functionality
 - **Validation**: Real-time form validation with Zod schemas
 
-### AI Chat Integration
-- **Contextual Insights**: AI analyzes your trading history
-- **Performance Questions**: "What's my average win rate?"
-- **Strategy Advice**: AI-powered strategy recommendations
-- **Privacy-First**: All data stays within your account
-
-### Strategy Library
-- **Categorization**: Organize strategies by market type, timeframe
-- **Rich Documentation**: Markdown support for detailed notes
-- **Version Control**: Track strategy evolution over time
-- **Search & Filter**: Quick access to relevant strategies
+### MT5 Integration
+- **Account Management**: Connect multiple MT5 accounts securely
+- **File Import**: CSV and Excel parsing with duplicate detection
+- **Sync Operations**: Automated trade synchronization
+- **Data Validation**: Real-time validation and error handling
 
 ## 🚦 Production Readiness
 
@@ -222,11 +196,10 @@ pnpm preview:prod
 - **Accessibility**: WCAG compliant components and keyboard navigation
 
 ### 🔐 Security Features
-- **Authentication**: Supabase Auth with JWT tokens
-- **Authorization**: Row Level Security policies
-- **Input Validation**: Server-side and client-side validation
-- **CORS Protection**: Properly configured API access
-- **Environment Variables**: Secure credential management
+- **Input Validation**: Client-side validation with Zod schemas
+- **Data Sanitization**: XSS protection and input cleaning
+- **Local Storage**: Secure client-side data persistence
+- **Environment Variables**: Secure configuration management
 
 ### 📊 Performance Metrics
 - **Build Size**: ~1.85MB (optimized and compressed)
@@ -242,11 +215,8 @@ pnpm preview:prod
 
 ## 🗺 Deployment
 
-### Current Production Deployment
-- **Frontend**: [https://4hf1trcwbcdm.space.minimax.io](https://4hf1trcwbcdm.space.minimax.io)
-- **Backend**: Supabase Edge Functions
-- **Database**: PostgreSQL with RLS
-- **CDN**: Optimized asset delivery
+### Standalone Frontend Deployment
+This is a standalone frontend application that can be deployed to any static hosting service.
 
 ### Deploy to Your Platform
 
@@ -264,6 +234,15 @@ vercel --prod
 # Build and deploy
 pnpm build:prod
 # Upload dist-production/ folder to Netlify
+```
+
+#### GitHub Pages
+```bash
+# Install gh-pages
+npm i -g gh-pages
+
+# Deploy
+npx gh-pages -d dist-production
 ```
 
 #### Custom Server
@@ -333,17 +312,7 @@ pnpm build:prod
 - **Enhanced debugging** with proper source maps
 - **Better documentation** and setup guides
 
-## 🔍 API Documentation
 
-### Edge Function Endpoints
-- **POST** `/functions/v1/ai-chat` - AI trading assistant
-  - Body: `{ message: string, context?: object }`
-  - Response: `{ response: string, timestamp: string }`
-
-### Authentication
-- **Supabase Auth** handles user authentication
-- **JWT tokens** for API authentication
-- **Row Level Security** for data access control
 
 ## 📞 Support
 
@@ -355,8 +324,7 @@ pnpm build:prod
 ### Common Issues
 1. **Build Errors**: Run `pnpm clean && pnpm install`
 2. **TypeScript Errors**: Check type definitions in `/types/`
-3. **Supabase Connection**: Verify environment variables
-4. **AI Chat Not Working**: Check xAI API key permissions
+3. **Environment Variables**: Verify environment variables are set correctly
 
 ## 📋 License
 

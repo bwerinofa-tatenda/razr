@@ -1,10 +1,8 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { 
-  LayoutDashboard, 
-  TrendingUp, 
-  BookOpen, 
-  MessageSquare,
+import {
+  LayoutDashboard,
+  TrendingUp,
   Download,
   Settings
 } from 'lucide-react';
@@ -15,9 +13,6 @@ export default function Sidebar() {
   const navigation = [
     { name: 'Dashboard', href: '/dashboard', icon: LayoutDashboard },
     { name: 'Trades', href: '/trades', icon: TrendingUp },
-    { name: 'Library', href: '/library', icon: BookOpen },
-    { name: 'Advanced Library', href: '/library-advanced', icon: BookOpen, isNew: true },
-    { name: 'Chat', href: '/chat', icon: MessageSquare },
     { name: 'Imports & Connections', href: '/imports-connections', icon: Download },
     { name: 'Settings', href: '/settings', icon: Settings },
   ];
@@ -55,11 +50,6 @@ export default function Sidebar() {
             >
               <Icon className={`h-5 w-5 mr-3 ${active ? 'text-blue-600 dark:text-blue-400' : 'text-gray-400 dark:text-gray-500'}`} />
               {item.name}
-              {item.isNew && (
-                <span className="ml-auto px-2 py-0.5 text-xs font-medium bg-green-100 text-green-800 rounded-full">
-                  New
-                </span>
-              )}
             </Link>
           );
         })}

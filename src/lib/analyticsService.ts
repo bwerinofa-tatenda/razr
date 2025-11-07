@@ -1,4 +1,3 @@
-import { supabase } from './supabaseClient';
 import type { MockNote, MockTrade } from './mockStorage';
 
 // Analytics Data Types
